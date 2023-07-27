@@ -33,6 +33,5 @@ if __name__ == "__main__":
         group_id="Group1_processed")
     print("starting the consumer")
     for msg in consumer2:
-        # is text ko ingest krna hai Database me
         print("Registered User = {}".format(json.loads(msg.value)))
         time.sleep(1)
