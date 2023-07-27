@@ -17,7 +17,3 @@ if __name__ == "__main__":
         print(doc_data)
         producer.send("document_data", doc_data)
         time.sleep(1)
-        # processed_text = "  "
-        # use helper functions on cosumer 1 to get these
-        # producer.send("processed_data", doc_data)
-        # time.sleep(4)
