@@ -40,6 +40,7 @@ jaraco.context==4.3.0
 jaraco.functools==3.8.1
 jaraco.text==3.11.1
 kiwisolver==1.4.4
+langchain
 libfdt==1.7.0
 libinput-gestures-qt==0.4
 libvirt-python==9.6.0
@@ -72,6 +73,7 @@ pydantic==1.10.9
 PyGObject==3.44.1
 pynput==1.7.6
 pyparsing==3.0.9
+PyPDF2
 PyQt5==5.15.9
 PyQt5-sip==12.12.2
 pyrate-limiter==2.10.0
